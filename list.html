@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <!-- Required meta tags -->
@@ -12,6 +12,7 @@
         
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="icon" href="icons/broom.png" type="image/png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>УбирайКА | iCal Network</title>
 </head>
 
@@ -36,57 +37,117 @@
                 </li>
                 
             </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <div class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Поиск услуги" aria-label="Search" readonly>
                 <button class="btn btn-outline-success my-2 my-sm-0 disabled" type="submit">Поиск</button>
-            </form>
+            </div>
         </div>
     </nav>
 
     <main role="main">
         <div class="container space-created">
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <label class="input-group-text" for="inputGroupSelect01">Услуга: </label>
+            <div class="row">
+                <div class="form-inline my-3 col-md-6 col-lg-4 col-sm-8">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Поиск услуги" aria-label="Search" readonly>
+                    <button class="btn btn-outline-success my-2 my-sm-0 disabled" type="submit">Поиск</button>
                 </div>
-                <select class="custom-select" id="inputGroupSelect01">
-                    <option selected>-----</option>
-                    <option value="1">Уборка квартиры</option>
-                    <option value="2">Готовка</option>
-                    <option value="3">Генеральная уборка</option>
-                </select>
+                <div class="input-group my-3 col-md-6 col-lg-4 col-sm-8">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Услуга: </label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>-----</option>
+                        <option value="1">Уборка квартиры</option>
+                        <option value="2">Готовка</option>
+                        <option value="3">Генеральная уборка</option>
+                    </select>
+                </div>
             </div>
-            <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">List group item heading</h5>
-                        <small>3 days ago</small>
-                    </div>
-                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
-                        blandit.
-                    </p>
-                    <small>Donec id elit non mi porta.</small>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">List group item heading</h5>
-                        <small class="text-muted">3 days ago</small>
-                    </div>
-                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
-                        blandit.
-                    </p>
-                    <small class="text-muted">Donec id elit non mi porta.</small>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">List group item heading</h5>
-                        <small class="text-muted">3 days ago</small>
-                    </div>
-                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
-                        blandit.
-                    </p>
-                    <small class="text-muted">Donec id elit non mi porta.</small>
-                </a>
+            <div class="row">
+                <div class="list-group col-lg-9 col-md-10 col-sm-11 col-12 mx-1">
+                    <a href="service.html" class="list-group-item list-group-item-action flex-column align-items-start active">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small>3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                            blandit.Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                            blandit.
+                        </p>
+                        <small class="clearfix">
+                            <div class="float-left">Тихотонова Галина</div>
+                            <div class="float-right">Уборка квартиры</div>
+                        </small>
+                    </a>
+                    <a href="service.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small class="text-muted">3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                            blandit.
+                        </p>
+                        <small class="clearfix text-muted">
+                            <div class="float-left">Тихотонова Галина</div>
+                            <div class="float-right">Уборка квартиры</div>
+                        </small>
+                    </a>
+                    <a href="service.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small class="text-muted">3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                            blandit.Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                            blandit.
+                        </p>
+                        <small class="clearfix text-muted">
+                            <div class="float-left">Тихотонова Галина</div>
+                            <div class="float-right">Уборка квартиры</div>
+                        </small>
+                    </a>
+                    <a href="service.html" class="list-group-item list-group-item-action flex-column align-items-start active">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small>3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                            blandit.Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                            blandit.
+                        </p>
+                        <small class="clearfix">
+                            <div class="float-left">Тихотонова Галина</div>
+                            <div class="float-right">Уборка квартиры</div>
+                        </small>
+                    </a>
+                    <a href="service.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small class="text-muted">3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                            blandit.
+                        </p>
+                        <small class="clearfix text-muted">
+                            <div class="float-left">Тихотонова Галина</div>
+                            <div class="float-right">Уборка квартиры</div>
+                        </small>
+                    </a>
+                    <a href="service.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small class="text-muted">3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                            blandit.Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                            blandit.
+                        </p>
+                        <small class="clearfix text-muted">
+                            <div class="float-left">Тихотонова Галина</div>
+                            <div class="float-right">Уборка квартиры</div>
+                        </small>
+                    </a>
+                </div>
             </div>
         </div>
     
